@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(4, 152, 250);
+}
+h1{
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+h1{
+    font: normal 40pt Arial;
+}
+p{
+    font-style: italic 15pt Arial;
+}
