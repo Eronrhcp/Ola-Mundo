@@ -1,17 +1,13 @@
 import React from "react"
-import Logo from './componentes/img/logo.png'
+import Header from "./componentes/Header"
+import Body from "./componentes/Body"
 
 
 function App() {
-  let sobrenome = "Oliveira"
-  let men = "World"
   return (
     <>
-      <header>
-        <p>Hello {men} React</p>
-      </header>
-      <p>Eron {sobrenome}</p>
-      <img src={Logo} />
+      <Header />
+      <Body />
     </>
   )
 }
