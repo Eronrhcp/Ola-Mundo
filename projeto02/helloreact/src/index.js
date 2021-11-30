@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; //importa o arquivo App que é utilizado dentro do render
 import reportWebVitals from './reportWebVitals';
 
+//O render recebe dois parametros: ReactDOM.render(O que vai ser carregado, onde vai carregar)
 ReactDOM.render(
   <React.StrictMode>
     <App />
