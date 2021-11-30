@@ -7,8 +7,11 @@ function App() {
   let men = "World"
   return (
     <>
+      <header>
+        <p>Hello {men} React</p>
+      </header>
       <p>Eron {sobrenome}</p>
-      <p>Hello {men} React</p>
+      <img src={Logo} />
     </>
   )
 }
