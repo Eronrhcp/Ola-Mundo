@@ -15,16 +15,16 @@ function Body() {
         return v1 + v2
     }
     return (
-        <section>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, velit laborum, labore laboriosam cupiditate odit fugiat dolor eius similique incidunt fuga alias, facilis nulla eum deserunt quae. Corrupti, delectus officia.
-            </p>
+        <section className='caixa'>
+            <p className='texto'>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, velit laborum, labore laboriosam cupiditate odit fugiat dolor eius similique incidunt fuga alias, facilis nulla eum deserunt quae. Corrupti, delectus officia.</p>
             <Dados
                 face={fa}
                 insta={ins}
                 linked={li}
                 soma={soma}
             />
+            <a href='https://eronrhcp.github.io/projeto-portifolio/' target='_blank'>eOs</a>
         </section>
     )
 
