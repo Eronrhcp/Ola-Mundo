@@ -6,6 +6,8 @@ import Carros from "./componentes/Carros"
 export default function App() {
 
   return (
-    <Carros />
+    <div className='bg-white w-3/5 align-center'>
+      <Carros />
+    </div>
   )
 }
