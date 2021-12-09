@@ -1,14 +1,11 @@
 import React, { useState } from "react"
 import './App.css'
+import Carros from "./componentes/Carros"
 
 
-function App() {
-  let [num, setNum] = useState(10)
+export default function App() {
 
   return (
-    <>
-    </>
+    <Carros />
   )
 }
-
-export default App
