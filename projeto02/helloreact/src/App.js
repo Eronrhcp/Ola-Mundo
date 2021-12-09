@@ -1,9 +1,5 @@
 import React, { useState } from "react"
-import Header from "./componentes/Header"
-import Body from "./componentes/Body"
 import './App.css'
-import Relogio from "./componentes/Relogio"
-import Arquivo from "./componentes/Arquivo"
 
 
 function App() {
@@ -11,11 +7,6 @@ function App() {
 
   return (
     <>
-      <Arquivo />
-      <p>Valor do state app: {num}</p>
-      <button onClick={() => setNum(num + 10)}>Soma 10</button>
-      <Header />
-      <Body />
     </>
   )
 }
