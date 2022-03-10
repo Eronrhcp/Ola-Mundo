@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">projeto03 - Android</string>
+    <string name="app_name">projeto03</string>
+    <string name="eos">eOs</string>
+    <string name="android">Android</string>
 </resources>
